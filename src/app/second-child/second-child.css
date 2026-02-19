@@ -1,0 +1,36 @@
+table input {
+     width: auto;
+     padding: 0;
+     margin: 0;
+}
+table button {
+  border: none;
+  background-color: transparent;
+}
+.even{
+  background-color: rgba(199, 194, 188, 0.536);
+  text-align: center;
+  padding: 4px 0;
+}
+.done{
+    text-decoration: line-through;
+}
+.odd{
+background-color: rgba(90, 242, 234, 0.221);
+  text-align: center;
+  padding: 4px 0;
+}
+th{
+    background-color: rgb(78, 109, 107);
+    color: aliceblue;
+    padding: 5px 0;
+    text-align: center;
+}
+td{
+    text-align: center;
+
+}
+table{
+    width: 100%;
+    border: #00ffd9 solid 1px;
+}

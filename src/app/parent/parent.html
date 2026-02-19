@@ -1,0 +1,13 @@
+<div class="container">
+    <p class="lead p-4"> <strong>TODO WRAPPER</strong></p>
+    <div class="parent p-4 container">
+        
+        <app-first-child (newOut)="recevedTask=$event">  
+        </app-first-child>
+        <app-second-child [taskName]="recevedTask">
+        </app-second-child>
+
+    </div>
+
+
+</div>

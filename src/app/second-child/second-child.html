@@ -1,0 +1,19 @@
+<table class="table">
+  <tr>
+    <th> Done </th>
+    <th> Task </th>
+    <th> Delete </th>
+  </tr>
+
+  <tbody>
+    @for (task of tasks; track $index) {
+      <tr>
+        <td> <input type="checkbox" [checked]="task.isDone"(change)="toggleDone($index)"> </td>
+        
+        <td [class.text-decoration-line-through]="task.isDone">{{ task.name }} </td>
+
+        <td> <button (click)="deleteTask($index)" > <i class="fa-solid fa-trash text-dark"></i></button> </td>
+      </tr>
+    }
+  </tbody>
+</table>

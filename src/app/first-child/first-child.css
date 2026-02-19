@@ -1,0 +1,17 @@
+input{
+    width: 60%;
+    padding: 10px 50px ;
+    border-radius: 10px;
+    border: 2px gray solid;
+}
+button{
+    padding: 7px 20px;
+    margin: 20px 40px;
+    border: 2px solid rgb(153, 152, 142);
+    background-color: rgba(188, 182, 170, 0.642);
+    border-radius: 10px;
+}
+.chil-one{
+    background-color: #7be4e7fb;
+    margin-bottom: 20px;
+}
